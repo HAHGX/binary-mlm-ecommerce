@@ -3,7 +3,7 @@
   * Plugin Name: WP e-Commerce MLM
   * Plugin URI: http://tradebooster.com/
   * Description: A plugin that provides a WordPress Shopping Cart and MLM.
-  * Version: 1.0.0
+  * Version: 2.0.0
   * Author: Total Internet Solution Private Ltd.
   * Author URI: http://tradebooster.com/
   **/
