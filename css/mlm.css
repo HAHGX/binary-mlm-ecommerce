@@ -1,0 +1,26 @@
+@CHARSET "UTF-8";
+
+.column-mlm {
+width:50px;
+}
+
+.column-mlm img {
+width:20px;
+height:20px;
+}
+
+.column-mlm img:hover {
+cursor:help;
+}
+
+.admin-settings
+{
+	text-align:right; 
+	vertical-align:top;
+}
+.toggle-visibility
+{
+	max-width: 500px; 
+	text-align: left; 
+	display: none; 
+}

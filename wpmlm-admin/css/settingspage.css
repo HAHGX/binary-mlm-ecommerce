@@ -1,0 +1,643 @@
+/***** 20. STANDARD FORM STYLES *****/
+/************************************/
+form input[type=text] { 
+	padding: 8px 5px; border: 1px solid #ccc; width: 85%; -moz-border-radius: 2px; -webkit-border-radius: 2px; 
+	border-radius: 2px; background: #fcfcfc; vertical-align: middle; -moz-box-shadow: inset 0 1px 3px #ddd; 
+	-webkit-box-shadow: inset 0 1px 3px #ddd; box-shadow: inset 0 1px 3px #ddd; color: #666;
+}
+form input[type=password] { 
+	padding: 8px 5px; border: 1px solid #ccc; width: 85%; -moz-border-radius: 2px; -webkit-border-radius: 2px; 
+	border-radius: 2px; background: #fcfcfc; vertical-align: middle; -moz-box-shadow: inset 0 1px 3px #ddd; 
+	-webkit-box-shadow: inset 0 1px 3px #ddd; box-shadow: inset 0 1px 3px #ddd; color: #666;
+}
+form input:focus { 
+	background: #fff; -moz-box-shadow: inset 1px 1px 2px #eee; -webkit-box-shadow: inset 1px 1px 2px #eee; box-shadow: inset 1px 1px 2px #eee;
+}
+form textarea { 
+	padding: 6px 5px; border: 1px solid #ccc; width: 85%; -moz-border-radius: 2px; -webkit-border-radius: 2px; 
+	border-radius: 2px; -moz-box-shadow: inset 0 1px 3px #ddd; -webkit-box-shadow: inset 0 1px 3px #ddd;
+	box-shadow: inset 0 1px 3px #ddd; background: #fcfcfc; color: #666; 
+}
+form input[type=radio], .stdform input[type=checkbox] { width: auto; margin: 0; vertical-align: middle; }
+form input[type=submit] { 
+	width: auto; margin: 0; font-weight: bold; color: #eee; background: #FB9337; border: 1px solid #F0882C; padding: 7px 10px; 
+	-moz-box-shadow: none; -webkit-box-shadow: none; box-shadow: none; cursor: pointer; -moz-border-radius: 2px; -webkit-border-radius: 2px;
+	border-radius: 2px;
+}
+form input[type=submit]:hover { background: #485B79; border: 1px solid #3f526f; }
+form input[type=reset] {
+	width: auto; margin: 0; font-weight: bold; color: #666; border: 1px solid #ccc; background: #eee; padding: 7px 10px;	
+	-moz-box-shadow: none; -webkit-box-shadow: none; box-shadow: none; margin-left: 5px; -moz-border-radius: 2px; -webkit-border-radius: 2px;
+	border-radius: 2px;
+}
+form input[type=reset]:hover { background: #ddd; cursor: pointer; color: #333; }
+form select { 
+	border: 1px solid #ccc; padding: 5px 2px; min-width: 40%; background: #fcfcfc; -moz-border-radius: 2px; -webkit-border-radius: 2px; border-radius: 2px; 
+	-moz-box-shadow: inset 1px 1px 2px #ddd; -webkit-box-shadow: inset 1px 1px 2px #ddd; box-shadow: inset 1px 1px 2px #ddd; color: #666;
+}
+form textarea:focus, form select:focus { 
+	background: #fff; -moz-box-shadow: inset 1px 1px 2px #eee; -webkit-box-shadow: inset 1px 1px 2px #eee; box-shadow: inset 1px 1px 2px #eee; 
+}
+
+form button { border: 1px solid #f0882c; background: #fb9337; color: #fff; cursor: pointer; padding: 7px 10px; font-weight: bold; }
+form button.submit:hover { background: #485B79; border: 1px solid #3f526f; color: #fff; }
+form button:active { 
+	-moz-box-shadow: inset 1px 1px 2px rgba(0, 0, 0, 0.3); -webkit-box-shadow: inset 1px 1px 2px rgba(0, 0, 0, 0.3); 
+	box-shadow: inset 1px 1px 2px rgba(0, 0, 0, 0.3);
+}
+
+form input.smallinput, form textarea.smallinput { width: 40%; }
+form input.mediuminput, form textarea.mediuminput { width: 60%; }
+form input.longinput, form textarea.longinput { width: 85%; }
+form input.error { border: 1px solid #f00; }
+form textarea.error { border: 1px solid #f00; }
+form textarea.error { border: 1px solid #f00; }
+form select.error { border: 1px solid #f00; }
+form label.error { float: none; color: #f00; font-size: 11px; display: block; text-align: left; font-weight: bold; }
+
+.stdform p, .stdform div.par { margin: 20px 0; }
+.stdform div.par { overflow: hidden; }
+.stdform span.field, .stdform div.field { margin-left: 220px; display: block; position: relative; }
+.stdform .formwrapper { display: block; padding-top: 5px; margin-left: 220px; line-height: 25px; }
+.stdform label { float: left; width: 200px; text-align: right; padding: 5px 20px 0 0; }
+
+.stdform button.cancel { background: #eee; color: #666; border: 1px solid #ddd; }
+.stdform button.cancel:hover { background: #ddd; border: 1px solid #ccc; }
+.stdform button.cancel:active { 
+	-moz-box-shadow: inset 1px 1px 2px rgba(0, 0, 0, 0.7); -webkit-box-shadow: inset 1px 1px 2px rgba(0, 0, 0, 0.7); 
+	box-shadow: inset 1px 1px 2px rgba(0, 0, 0, 0.7);
+}
+.stdform small.desc { font-size: 11px; color: #999; font-style: italic; display: block; margin: 5px 0 0 220px; }
+.stdform .stdformbutton { margin-left: 220px; }
+
+/*** ANOTHER FORM STYLE ***/
+.stdform2 p, .stdform2 div.par { border: 1px solid #ddd; background: #fcfcfc; margin: 0; border-top: 0; }
+.stdform2 div.terms { border: 0; background: none; }
+.stdform2 p:first-child, .stdform2 div.par:first-child { border-top: 1px solid #ddd; }
+.stdform div.par { overflow: hidden; }
+.stdform2 label { display: inline-block; padding: 20px; vertical-align: top; text-align: left; font-weight: bold; }
+.stdform2 label.error { margin-left: 0; padding: 0; }
+.stdform2 label small { font-size: 11px; color: #999; display: block; font-weight: normal; line-height: 16px; }
+.stdform2 span.field, .stdform2 div.field { margin-left: 220px; display: block; background: #fff; padding: 20px; border-left: 1px solid #ddd; }
+.stdform2 .stdformbutton { margin-left: 0; padding: 20px; background: #fff; }
+
+/*** DUAL BOX ***/
+.dualselect { margin-left: 220px; display: block; }
+.dualselect select { height: 200px; width: 40%; }
+.dualselect .ds_arrow { display: inline-block; vertical-align: top; padding-top: 60px; margin: 0 10px; }
+.dualselect .ds_arrow .ds_prev, .dualselect .ds_arrow .ds_next { 
+	display: block; padding: 5px 10px 7px 10px; border: 1px solid #ccc; margin-bottom: 5px; font-size: 24px; font-weight: bold; 
+	-moz-border-radius: 2px; -webkit-border-radius: 2px; border-radius: 2px; background: #eee url(../images/titlebg.png) repeat-x top left;
+}
+.dualselect .ds_arrow .ds_prev:hover, .dualselect .ds_arrow .ds_next:hover {
+	background: #FB9337; color: #fff; border-color: #F0882C; cursor: pointer;	
+}
+
+/* CHARACTER COUNT */
+.counter { display: block; margin: 5px 0; font-size: 14px; font-family: 'RobotoCondensed', Arial, Helvetica, sans-serif; }
+.warning { color: #bb0000; }
+.exceeded { color: #ff0000; }
+
+
+
+/***** NOTIFICATION MESSAGES *****/
+/*************************************/
+.notibar { 
+	height: auto; overflow: hidden; position: relative; margin-bottom: 20px; padding:0px 0 20px 0; -moz-border-radius: 2px; 
+	-webkit-border-radius: 2px; border-radius: 2px; line-height: 21px; -moz-box-shadow: inset 0 1px 0 rgba(250, 250, 250, 0.8); 
+	-webkit-box-shadow: inset 0 1px 0 rgba(250, 250, 250, 0.8); box-shadow: inset 0 1px 0 rgba(250, 250, 250, 0.8);
+
+}
+.notibar p { margin: 15px 10px 0 55px; font-size: 13px; color: #333; }
+.notibar a.close { 
+	position: absolute; width: 14px; height: 14px; top: 5px; right: 5px; background-image: url(images/close.png); background-repeat: no-repeat; }
+.notibar a.close:hover { cursor: pointer; }
+.msgalert a.close { background-position: -14px 0; }
+.msgalert a.close:hover { background-position: -14px -14px; }
+.msginfo a.close { background-position: -42px 0; }
+.msginfo a.close:hover { background-position: -42px -14px; }
+.msgsuccess a.close { background-position: -28px 0; }
+.msgsuccess a.close:hover { background-position: -28px -14px; }
+.msgerror a.close { background-position: 0 0; }
+.msgerror a.close:hover { background-position: 0 -14px; }
+.announcement a.close { background-position: -56px 0; }
+.announcement a.close:hover { background-position: -56px -14px; }
+
+.msgalert { border: 1px solid #eac572; background: #ffe9ad url(images/notifications.png) no-repeat 0 -52px; }
+.msginfo { border: 1px solid #99c4ea; background: #d1e4f3 url(images/info.png) no-repeat; }
+.msgsuccess { border: 1px solid #c1d779; background: #effeb9 url(images/success.png) no-repeat; }
+.msgerror { border: 1px solid #e18b7c; background: #fad5cf url(images/error.png) no-repeat; }
+.announcement { 
+	border: 1px solid #fbe187; background: #ffffdf url(images/advertisment-32.png) no-repeat 10px 10px; 
+	color: #95673f; height: auto;
+}
+.announcement h3 { margin: 15px 10px 10px 55px; }
+.announcement p { margin: 15px 10px 15px 55px; }
+
+
+
+table#wpmlm_checkout_list{
+	width:100%;
+}
+
+table#wpmlm_checkout_list tbody {
+	position:relative;
+}
+
+th#actions{
+	width:65px;
+}
+th#drag{
+	width:50px;
+}
+th#name {
+	width:205px;
+}
+tr.wpmlm_grey{
+	background-color: #ededed;
+}
+td.drag a:hover{
+	cursor: move;
+}
+
+th.column-type{
+	width:150px;
+}
+
+th.column-unique_name {
+	width:150px;
+}
+
+#checkout_message{
+	display: none;
+}
+
+#wpmlm_checkout_list td {
+	vertical-align:middle;
+}
+
+#wpmlm_checkout_list .uniquenamecol small {
+	color:#999;
+}
+
+td.drag a img {
+	vertical-align:middle;
+}
+
+#wpmlm_checkout_list_body .ajax-feedback {
+	display:none;
+}
+
+#wpmlm_checkout_list_body .ajax-feedback-active {
+	display:inline-block;
+	margin-left:4px;
+}
+
+th.column-mandatory, th.column-display {
+	width: 101px;
+}
+
+.widefat th.column-mandatory, td.mandatorycol, .widefat th.column-display, td.displaycol, .widefat th.column-trash, td.trashcol {
+	text-align:center;
+}
+
+#wpmlm_checkout_list .ui-sortable-helper {
+	margin-left:0;
+}
+
+#wpmlm_checkout_list .actionscol .cell-wrapper {
+	float:right !important;
+}
+
+tr.checkout-placeholder td {
+	border-width: 1px;
+	border-style: dashed;
+	z-index: 900;
+	border-color: #bbb;
+	background-color: #f5f5f5;
+	margin: -2px 0 0 -2px;
+}
+
+/* Removed to prevent overlapping the Contextual Help tab
+#wpmlm_options {
+	position: relative;
+}
+*/
+
+#wpmlm_options a.about_this_page {
+	position: absolute;
+	top: 10px;
+	right: 12px;
+}
+
+#wpmlm_options_page {
+	padding: 0;
+}
+
+#options_presentation{
+	min-width:850px;
+}
+
+table.wpmlm-edit-module-options tr td {
+	padding: 0;
+	vertical-align: top;
+}
+.wpmlm-module-settings {
+	padding: 0 0 8px 8px;
+	width:394px;
+}
+td.gateway_settings input[type=text]{
+	width: 200px;
+}
+tr.rate_row td input[type=text]{
+	width:50px;
+}
+div.wpmlm_newlayer input[type=text]{
+	width:50px;
+}
+td.gateway_settings textarea{
+	width:100%;
+}
+td.gateway_settings h4{
+	margin-top:0;
+}
+
+div#wpmlm_shipwire_setting, div#shipping_discount_value {
+	display: none;
+}
+
+table.wpmlm-edit-module-options {
+	margin:0;
+	width:100%;
+}
+/* admin checkout page css */
+div#form_field_form_container{ padding: 0px; margin: 0px; }
+
+div#form_field_form_container div, div#form_field_form_container div table{  padding: 0px;  margin: 0px;  width: 100%;  border-collapse: collapse; }
+table#form_field_table tr td.namecol{ }
+
+table#form_field_table tr *.namecol{ width: 170px; padding-right: 8px; }
+table#form_field_table tr *.namecol input{ width: 160px; }
+
+table#form_field_table tr *.typecol{ width: 120px; }
+table#form_field_table tr *.typecol select{ width: 115px; }
+
+table#form_field_table tr *.mandatorycol{ width: 90px; text-align: center; }
+table#form_field_table tr *.mandatorycol input{ }
+
+table#form_field_table tr *.logdisplaycol{ width: 70px; text-align: center; }
+table#form_field_table tr *.logdisplaycol input{ }
+
+table#form_field_table tr *.ordercol{ width: 70px; text-align: center; }
+table#form_field_table tr *.ordercol input{ }
+
+table#form_field_table tr th{ padding-left: 0px; padding-right: 0px;  }
+
+.flag_email{
+	width:16px;
+	float:right;
+}
+
+#wpmlm_settingpage_nav_spacer{
+	width:35%;
+	float:right;
+	height:30px;
+	border-bottom:1px solid #dfdfdf;
+}
+
+#wpmlm_settings_nav_bar {
+	width:100%;
+}
+
+#wpmlm_settings_nav_bar ul {
+	width: 98%;
+	border-bottom: 1px solid #DFDFDF;
+	float: left;
+	margin: 10px auto 0;
+	padding-left: 15px;
+}
+#wpmlm_settings_nav_bar ul li a{
+	margin-bottom:-1px;
+}
+
+#wpmlm_settings_nav_bar ul li a.current {
+	background-color: #f9f9f9 !important;
+	border-bottom-color: transparent !important;
+}
+
+h3.form_group {
+	clear: both;
+}
+h3.form_group a{
+	color: #000;
+}
+div.product_and_button_settings {
+	width: 450px;
+	float: left;
+
+}
+
+div#themes_and_appearance {
+	border: 1px solid #DFDFDF;
+	width: 360px;
+	float: left;
+}
+
+div#themes_and_appearance p {
+	font-size: 11px;
+}
+
+span.display-path {
+	color:#666666;
+}
+
+div#themes_and_appearance ol {
+	font-size: 11px;
+	list-style-type:decimal;
+	list-style-position:inside;
+}
+
+div#themes_and_appearance ol li {
+	font-size: 11px;
+}
+
+a.nav-tab-loading {
+	color:#D54E21;
+}
+
+#wpmlm_options h2 .nav-tab {
+	font-size:16px;
+	line-height:20px;
+	padding:3px 6px 3px;
+	margin-right:0;
+}
+
+#wpmlm_options h2.nav-tab-wrapper {
+	padding-left:7px;
+}
+
+#wpmlm_options .postbox .inside p.submit {
+	margin-top:5px;
+	padding:0;
+}
+
+#wpmlm-shipping-module-settings td small {
+	color:#666;
+	font-style:italic;
+}
+
+.wpmlm-shipping-module-settings-tablerate .postbox .inside, .wpmlm-shipping-module-settings-weightrate .postbox .inside {
+	padding: 0;
+}
+
+.wpmlm-shipping-module-settings-tablerate .form-table th, .wpmlm-shipping-module-settings-weightrate .form-table th {
+	border-bottom:1px solid #dfdfdf;
+	font-size:12px;
+	font-weight:bold;
+	padding:7px 10px 7px 20px;
+}
+
+.wpmlm-shipping-module-settings-tablerate .form-table, .wpmlm-shipping-module-settings-weightrate .form-table {
+	margin-top:0;
+}
+
+.wpmlm-shipping-module-settings-tablerate .total {
+	width:120px;
+}
+
+.wpmlm-shipping-module-settings-weightrate .form-table th.total-weight {
+	padding-left:10px;
+	width:140px;
+}
+
+.wpmlm-shipping-module-settings-tablerate .form-table td, .wpmlm-shipping-module-settings-weightrate .form-table td {
+	border-bottom:1px solid #dfdfdf;
+	padding:0 10px;
+}
+
+.wpmlm-shipping-module-settings-tablerate .form-table td .cell-wrapper, .wpmlm-shipping-module-settings-weightrate .form-table td .cell-wrapper {
+	padding:7px 0;
+	width:100%;
+}
+
+#wpmlm_options .wpmlm-shipping-module-settings-tablerate .postbox .inside .submit, #wpmlm_options .wpmlm-shipping-module-settings-weightrate .postbox .inside .submit {
+	padding:0 10px 0 20px;
+}
+
+.wpmlm-shipping-module-settings-tablerate td .actions, .wpmlm-shipping-module-settings-weightrate td .actions {
+	float:right;
+	margin-right:10px;
+}
+
+.wpmlm-shipping-module-settings-tablerate td .add, .wpmlm-shipping-module-settings-weightrate td .add {
+	display:none;
+}
+
+#wpmlm_options .action {
+	display:none;
+}
+
+.js #wpmlm_options .js-warning {
+	display:none;
+}
+
+.js #wpmlm_options .wpmlm-shipping-module-settings-tablerate td .action,
+.js #wpmlm_options .wpmlm-shipping-module-settings-weightrate td .action,
+.js #wpmlm_checkout_list .action {
+	background-image:url(plus-minus.png);
+	background-repeat:no-repeat;
+	display:inline-block;
+	height:20px;
+	margin-left:3px;
+	text-indent:-9999em;
+	width:20px;
+}
+
+.js #wpmlm_options .wpmlm-shipping-module-settings-tablerate td span.action,
+.js #wpmlm_options .wpmlm-shipping-module-settings-weightrate td span.action,
+.js #wpmlm_checkout_list span.action {
+	opacity:0.3;
+}
+
+.js .wpmlm-shipping-module-settings-tablerate td a.add:hover,
+.js .wpmlm-shipping-module-settings-weightrate td a.add:hover,
+.js #wpmlm_checkout_list .actionscol a.add:hover,
+.js .wpmlm-field-options-table .column-actions a.add:hover {
+	background-position:-20px 0;
+}
+
+.js .wpmlm-shipping-module-settings-tablerate td a.add:active,
+.js .wpmlm-shipping-module-settings-weightrate td a.add:active,
+.js #wpmlm_checkout_list .actionscol a.add:active,
+.js .wpmlm-field-options-table .column-actions a.add:active {
+	background-position:-40px 0;
+}
+
+.js .wpmlm-shipping-module-settings-tablerate td a.delete:hover,
+.js .wpmlm-shipping-module-settings-weightrate td a.delete:hover,
+.js #wpmlm_checkout_list .actionscol a.delete:hover,
+.js .wpmlm-field-options-table .column-actions a.delete:hover {
+	background-position:-20px -20px;
+}
+
+.js .wpmlm-shipping-module-settings-tablerate td a.delete:active,
+.js .wpmlm-shipping-module-settings-weightrate td a.delete:active,
+.js #wpmlm_checkout_list .actionscol a.delete:active,
+.js .wpmlm-field-options-table .column-actions a.delete:active {
+	background-position:-40px -20px;
+}
+
+.js .wpmlm-shipping-module-settings-tablerate td .delete,
+.js .wpmlm-shipping-module-settings-weightrate td .delete,
+.js #wpmlm_checkout_list .actionscol .delete,
+.js .wpmlm-field-options-table .column-actions .delete {
+	background-position:0 -20px;
+}
+
+#wpmlm_checkout_list .wpmlm-field-options-table {
+	border-collapse:collapse;
+	margin-bottom:1em;
+	width:100%;
+}
+
+#wpmlm_checkout_list .wpmlm-field-options-table th {
+	background:none;
+	border-top:none;
+	color:#000;
+	font-family:sans-serif;
+	font-size:12px;
+	font-weight:bold;
+	padding:0 5px;
+}
+
+#wpmlm_checkout_list .wpmlm-field-options-table input {
+	width:100%;
+}
+
+#wpmlm_checkout_list .wpmlm-field-options-table td {
+	border:none;
+	padding:0 5px;
+}
+
+.js #wpmlm_checkout_list .edit-options {
+	display:none;
+}
+
+.js .form-field-options {
+	display:none;
+}
+
+#wpmlm_checkout_list .form-field-options td {
+	border-top:none;
+}
+
+#wpmlm_checkout_list tr.editing-options td {
+	border-bottom:none;
+}
+
+#wpmlm_checkout_list .wpmlm-field-options-table td .field-option-cell-wrapper {
+	padding:7px 0;
+}
+
+#wpmlm_checkout_list .wpmlm-field-options-table .column-actions {
+	width:65px;
+}
+
+#wpmlm_checkout_list .wpmlm-field-options-table .column-actions .field-option-cell-wrapper {
+	float:right;
+}
+
+.js #wpmlm_checkout_list .new-field {
+	display:none;
+}
+
+/* shipping options start here */
+div.wpmlm_shipping_options, div.wpmlm-select-gateway {
+	border-top: 1px solid #e9e9e9;
+	width:100%;
+	padding:3px 0;
+}
+.wpmlm-shipping-actions, .wpmlm-gateway-actions {
+	visibility:hidden;
+	font-size: 10px;
+	line-height: 16px;
+	margin:0px 9em 0 0;
+	float:right;
+}
+div.wpmlm_shipping_options:hover .wpmlm-shipping-actions, div.wpmlm-select-gateway:hover .wpmlm-gateway-actions {
+	font-size:10px;
+	visibility:visible;
+}
+div.wpmlm-select-gateway p, div.wpmlm_shipping_options p {
+	margin: 0px 15px 4px 5px;
+}
+#wpmlm-payment-gateway-settings-panel input[type=text], #wpmlm-payment-gateway-settings-panel textarea {
+	width:265px;
+}
+
+#wpmlm-target-markets{
+overflow: auto;
+height: 150px;
+border: solid 1px #DFDFDF;
+padding: 10px;
+margin: 10px;
+}
+
+.setting-page-wrapper {
+    background: none repeat scroll 0 0 #FCFCFC;
+    border: 1px solid #DDDDDD;
+    border-radius: 2px 2px 2px 2px;
+    margin:20px 10px 10px 10px;
+    padding: 20px;
+}
+
+
+/*General Settings page*/
+#general-form{ width:auto; margin:10px;}
+#general-form .fldname{ float:left; width:130px;}
+#general-form .fldvalue{ float:left;}
+#general-form .fldtitle{ float:left; margin:10px 0 10px 0;}
+#general-form .pairfor{ float:left; padding:3px 10px 0 10px; width:210px;}
+.#general-form .mainpair{ float:left; padding:0 10px 0 10px;}
+.cBoth{ clear:both;}
+#general-form .row{	padding:5px 0 5px 0;clear:both;}
+
+/*Eligibility Setting Page*/
+#eligibility-form{ width:auto; margin:10px;}
+#eligibility-form .fldname{ float:left; width:180px; font-weight:400;}
+#eligibility-form .fldvalue{ float:left;}
+#eligibility-form .fldminpvfield{ float:left; padding:3px 10px 0 10px;}
+.#eligibility-form .fldfldminpvvalue{ float:left; padding:0 10px 0 10px;}
+#eligibility-form .row{	padding:5px 0 5px 0;clear:both;}
+
+/*Payout setting Page*/
+#payout-form{ width:auto; margin:10px;}
+#payout-form .row{ 	padding:5px 0 5px 0;clear:both;}
+#payout-form .submit{ padding:20px 0 5px 0;}
+
+
+/*Bonus Setting*/
+#bonus-form{ width:auto; margin:10px;}
+#bonus-form .fldname{ float:left; width:130px;}
+#bonus-form .fldvalue{ float:left;}
+#bonus-form .unitfor{ float:left; padding:3px 10px 0 10px; width:210px;}
+#bonus-form .mainunit{ float:left; padding:0 10px 0 10px;}
+#bonus-form .row{ 	padding:5px 0 5px 0;clear:both;}
+
+
+/*License setting Page*/
+#license-form{ width:auto; margin:10px;}
+#license-form .fldname{ float:left; width:130px; padding:10px;}
+#license-form .fldvalue{ float:left; width:500px;}
+#license-form .fldtitle{ float:left; margin:10px 0 10px 0;}
+#license-form .pairfor{ float:left; padding:3px 10px 0 10px; width:210px;}
+.#license-form .mainpair{ float:left; padding:0 10px 0 10px;}
+#license-form .row{	padding:5px 0 5px 0;clear:both;}
+#domainname { 
+	padding: 8px 5px; border: 1px solid #ccc; width: 85%; -moz-border-radius: 2px; -webkit-border-radius: 2px; 
+	border-radius: 2px; background: #fcfcfc; vertical-align: middle; -moz-box-shadow: inset 0 1px 3px #ddd; 
+	-webkit-box-shadow: inset 0 1px 3px #ddd; box-shadow: inset 0 1px 3px #ddd; color: #666; width:412px!important;
+}
+#domainname:focus { 
+	background: #fff; -moz-box-shadow: inset 1px 1px 2px #eee; -webkit-box-shadow: inset 1px 1px 2px #eee; box-shadow: inset 1px 1px 2px #eee;
+}

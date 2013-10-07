@@ -1,0 +1,54 @@
+/*css for Payout page*/
+#container-payout{
+	margin-top:10px;
+	width:99%;
+}
+
+.payoutbuttoncontainer{
+	margin:20px 0 10px;
+	padding-bottom:50px;
+}	
+.payoutbuttoncontainer .submit{  
+	margin:0px!important;
+	padding:0px!important;
+}
+
+.payoutbuttoncontainer .submit a{  border: 0 none;  border-radius: 4px 4px 4px 4px; cursor: pointer; display: inline-block; font-family: 'Helvetica',Arial,sans-serif; font-size: 12px; font-style: normal; font-weight: bold; height: 30px; line-height: 30px; margin: 5px 5px 0 0;background-color: #21759B;
+    background-image: linear-gradient(to bottom, #2A95C5, #21759B);
+	
+    padding: 0 15px; text-align: center; text-decoration: none;  vertical-align: top;  white-space: nowrap; width: auto;	
+	color: #FFFFFF!important;
+}
+
+
+.payoutcycle{
+	font-size:12px;
+	color:#000000;
+	text-align:justify;
+}
+.payoutcycle p{
+	margin:5px;
+}
+.payoutcycle ul{
+	margin:5px;
+	padding-left:15px;
+	}
+.payoutcycle ul li{
+	margin:5px;
+	list-style-type:disc;
+	
+}
+
+/*MLM settings heading page*/
+.mlm-settings-heading{
+	padding:10px;
+	margin:10px 0 10px 10px;
+	font-size:18px;
+	border:solid 1px #00CC33 !important;
+	
+}
+
+#eligibility-form .fldname{
+	font-size:18px;
+	border:solid 1px #000066;
+}
